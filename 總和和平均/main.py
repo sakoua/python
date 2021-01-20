@@ -10,5 +10,5 @@ for q in range(2):
                 su=sum(o)
         print(*o)
         print("Sum = " + str(float(su)))
-        print("Avg = " + str(round(su/len(o),1)))
+        print("Average = " + str(round(su/len(o),1)))
         print()

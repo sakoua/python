@@ -1,4 +1,4 @@
-with open('C://Users/Tina/desktop/python/pyd108/in1.txt',mode='r') as s:
+with open('in1.txt',mode='r') as s:
     o=list()
     while True:
         line=s.readline()

@@ -1,0 +1,4 @@
+pip install openpyxl
+pip install pandas
+資料檔名要求:Draw_lots.csv
+資料檔格式:utf8

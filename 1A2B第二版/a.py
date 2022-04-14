@@ -18,6 +18,12 @@ for i in range(1, 3):
                     continue
                 if itme in tt:
                     b+=1
+<<<<<<< HEAD
                     tt.remove(itme)
             print(f"{a}A{b}B")
         print(" ")
+=======
+                    tt.remove(item)
+            print(f"{a}A{b}B",file=output)
+        print(" ",file=output)
+>>>>>>> e0b16b2d99f15ae8735ad31c509c3e9329e87411

@@ -18,5 +18,6 @@ for i in range(1, 3):
                     continue
                 if itme in tt:
                     b+=1
-            print(f"{a}A{b}B",file=output)
-        print(" ",file=output)
+                    tt.remove(itme)
+            print(f"{a}A{b}B")
+        print(" ")
